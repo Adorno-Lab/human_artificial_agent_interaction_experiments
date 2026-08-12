@@ -1,0 +1,52 @@
+<launch>
+    <node pkg="kinect" type="image_converter" name="image_converter" output="screen"/>
+
+	<!-- Frame rate of the camera -->
+        <param name="frame_rate" type="double" value="30" />
+
+	<!-- Path to the haarcascade files for facial attributes detection -->
+	<param name="files_path" type="string" value="$(find kinect)/src/haarcascades" />
+
+	<!-- Flag to indicate origin of the image: Kinect (0), webcam (1) or video (2) -->
+	<arg name="camera" value="0" />
+	<param name="camera" type="int" value="$(arg camera)" />
+
+	<!-- Only if "arg_camera" is 0 (using Kinect), the next command will be executed -->
+	<!-- You DO NOT NEED to make any changes here -->
+	<group if="$(eval arg('camera') == 0)">
+		<include file="$(find freenect_launch)/launch/freenect_one.launch"> </include>
+	</group>
+
+	<!-- The topic where to get the image from if Kinect is being used -->
+	<param name="topic_kinect" type="string" value="/camera4/rgb4/image_color" />
+
+	<!-- Values for configuration of the Kalman filter matrices -->
+	<!-- value="kProcessNoise, kMeasurementNoise, kErrorPost" -->
+	<!-- If kProcessNoise > kMeasurementNoise then the measurement is more reliable than the model. -->
+	<param name="lefteye_matrices" value="150, 100, 1" />
+	<param name="righteye_matrices" value="150, 100, 1" />
+	<param name="mouth_matrices" value="100, 50, 1" />
+	<param name="leftpupil_matrices" value="10, 10, 1" />
+	<param name="rightpupil_matrices" value="10, 10, 1" />
+
+	<!-- Flag to indicate if the results should be displayed (1) or not (0) -->
+	<!-- Keep in mind that visualization takes time -->
+	<param name="show" type="int" value="0" />
+
+	<!-- Flag to indicate if results should be saved (1) or not (0) -->
+	<param name="results" type="int" value="0" />
+
+	<!-- Path to recorded video -->
+	<param name="video_path" type="string" value="" />
+
+	<!-- Path to the result files -->
+	<param name="results_path" type="string" value="" />
+
+	<!-- Flag to indicate if detection should start with the node (1) or if it should wait for an external command (0) -->
+	<param name="start" type="int" value="0" />
+
+	<!-- Number of frames that should be used in initialization -->
+	<param name="initialization_frames" type="int" value="10" />
+
+	
+</launch>

@@ -1,0 +1,52 @@
+<launch>
+	<!-- Screen dimensions in meters -->
+	<param name="~screen_width" type="double" value="0.52" />
+	<param name="~screen_height" type="double" value="0.295" />
+
+	<!-- Reduction scale of the window with respect to the screen dimensions -->
+	<!-- Window dimensions will be: window_width = screen_width/width_scale
+					window_height = screen_height/height_scale -->
+	<!-- Example: if you want the virtual agent's window with half the screen's width, 
+	     set width_scale as "2". If you want fullscreen, set "1" to both parameters. -->
+	<param name="~width_scale" value="1" />
+	<param name="~height_scale" value="1" />
+
+	<!-- Position of the window's top left point relative to screen dimensions -->
+	<!-- Window position, with respect to the top-left point of the screen, will be:
+				horizontal_position = screen_width/window_x
+				vertical_position = screen_height/window_y -->
+	<!-- Example: if you want the top-left point of the virtual agent's window in the center
+	     of the screen, set window_x and window_y as "2". If you want fullscreen, set "0" to
+	     both parameters. -->
+	<param name="~window_x" value="0" />
+	<param name="~window_y" value="0" />
+
+	<!-- Name of the marker topic -->
+	<param name="~topic" type="string" value="x09" />
+
+	<!-- Position of the top-left corner of the screen with respect to the marker frame -->
+	<!-- Rotation from marker to screen's top-left corner is of (-pi/2)rad around x. -->
+	<!-- Then, p = (marker_tl_x, marker_tl_y, marker_tl_z) and r = (-pi/2, î). -->
+	<param name="~marker_tl_x" type="double" value="-0.055" />
+	<param name="~marker_tl_y" type="double" value="0.21" />
+	<param name="~marker_tl_z" type="double" value="0.40" />
+
+	<!-- Parameter to indicate if the window should be always in the first plan (1) or not (0) -->
+	<param name="~first_plan" value="0" />
+
+	<!-- Phase of the experiment that the virtual agent should be linked to -->
+	<!-- You only need to set the next line with the value of the 'phase' parameter. -->
+	<arg name="phase" value="1" />
+
+	<!-- DO NOT CHANGE THE FOLLOWING LINES -->
+	<!-- The next lines automatic create the correct node for the virtual agent. -->
+	<param name="~phase" value="$(arg phase)" />
+	<group if="$(eval arg('phase') == 1)">
+		<node pkg="virtual-agent" type="main_experiments.py" name="virtual_agent1" output="screen"/>
+	</group>
+	<group if="$(eval arg('phase') == 2)">
+		<node pkg="virtual-agent" type="main_experiments.py" name="virtual_agent2" output="screen"/>
+	</group>
+
+
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="screen" type="main_counting.py" name="counting" output="screen"/>
+
+</launch>
+

@@ -1,0 +1,38 @@
+<launch>
+
+	<!-- Dimensions of the objects -->
+	<!-- For each object, add the lengths separated by commas and the objects separated by semicolons (ex: "lx1, ly1, lz1; lx2, ly2, lz2") -->
+	<param name="~objects_dimensions" value="1.0, 1.0, 0.5;
+						 1.0, 1.0, 0.5;
+						 1.0, 1.0, 0.5;
+						 1.0, 1.0, 0.5" />
+
+	<!-- The percentage that the objects will be larger than their original dimensions -->
+	<param name="~larger" value="0.0" />
+	
+	<!-- Parameter to indicate how the objects poses will be defined -->
+	<!-- If (0), objects are tracked using ROS topics with respect to the reference frame. -->
+	<!-- If (1), objects are fixed with respect to the camera. -->
+	<param name="~objects" value="1" />
+
+	<!-- Names of the topics for the objects' poses -->
+	<!-- Separate the name of each topic using semicolons (ex: "/topic1; /topic2") -->
+	<!-- NOTE: You only need to set this parameter if the objects poses should be tracked using topics. -->
+	<param name="~topics" value="" />
+
+	<!-- Fixed poses of the objects with respect to the camera. -->
+	<!-- For each object, add the position and rotation quaternion, with elements separated by commas. The semicolons separate objects. -->
+	<!-- Example: "px1, py1, pz1, rw1, rx1, ry1, rz1; px2, py2, pz2, rw2, rx2, ry2, rz2", where, for the i-th object, pxi, pyi, and pzi are the coordinates of position in x, y, and, z, respectively, rwi is the real part of the rotation quaternion and rxi, ryi, and rzi are its imaginary coordinates. --> 
+	<!-- NOTE: You only need to set this parameter if the objects poses are fixed. -->
+	<param name="~fixed_poses" value="1.52, -0.625, -1.63, 1.0, 0.0, 0.0, 0.0;
+					  1.13, 0.605, -1.55, 1.0, 0.0, 0.0, 0.0;
+					  -1.56, -0.595, -1.63, 1.0, 0.0, 0.0, 0.0;
+					  -1.36, 0.81, -0.63, 1.0, 0.0, 0.0, 0.0" />
+
+	<!-- Number of object detections that should occur before calling it an indication. -->
+	<param name="~detection_number" value="5" />
+
+	<node pkg="kinect" type="gaze_interpretation.py" name="gaze" output="screen"/>
+
+
+</launch>

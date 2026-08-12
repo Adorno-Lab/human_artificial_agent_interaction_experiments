@@ -1,0 +1,11 @@
+
+<launch>
+
+<include file="$(find freenect_launch)/launch/freenect_one.launch">
+</include>
+
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find kinect)/rviz/config_file.rviz" />/>
+	<arg name="cam_image_topic" default="/camera/rgb4/image_mono" />
+	<arg name="cam_info_topic" default="/camera/rgb4/camera_info" />
+
+</launch>

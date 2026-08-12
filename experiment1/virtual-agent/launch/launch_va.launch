@@ -1,0 +1,43 @@
+<launch>
+	<!-- Screen dimensions in meters -->
+	<param name="~screen_width" type="double" value="0.31" />
+	<param name="~screen_height" type="double" value="0.175" />
+
+	<!-- Reduction scale of the window with respect to the screen dimensions -->
+	<!-- Window dimensions will be: window_width = screen_width/width_scale
+					window_height = screen_height/height_scale -->
+	<!-- Example: if you want the virtual agent's window with half the screen's width, 
+	     set width_scale as "2". If you want fullscreen, set "1" to both parameters. -->
+	<param name="~width_scale" value="2" />
+	<param name="~height_scale" value="2" />
+
+	<!-- Position of the window's top left point relative to screen dimensions -->
+	<!-- Window position, with respect to the top-left point of the screen, will be:
+				horizontal_position = screen_width/window_x
+				vertical_position = screen_height/window_y -->
+	<!-- Example: if you want the top-left point of the virtual agent's window in the center
+	     of the screen, set window_x and window_y as "2". If you want fullscreen, set "0" to
+	     both parameters. -->
+	<param name="~window_x" value="4" />
+	<param name="~window_y" value="4" />
+
+	<!-- Name of the marker topic -->
+	<param name="~topic" type="string" value="x05" />
+
+	<!-- Position of the top-left corner of the screen with respect to the marker frame -->
+	<!-- Rotation from marker to screen's top-left corner is of (-pi/2)rad around x. -->
+	<!-- Then, p = (marker_tl_x, marker_tl_y, marker_tl_z) and r = (-pi/2, î). -->
+	<param name="~marker_tl_x" type="double" value="-0.155" />
+	<param name="~marker_tl_y" type="double" value="0.109" />
+	<param name="~marker_tl_z" type="double" value="0.21" />
+
+	<!-- Perpendicular distance between the virtual agent's screen and its gaze reference point -->
+	<!-- The default value is 0.5m. -->
+	<param name="~distance_z" type="double" value="2.0" />
+	
+	<!-- Parameter to indicate if the window should be always in the first plan (1) or not (0) -->
+	<param name="~first_plan" value="0" />
+	
+	<node pkg="virtual-agent" type="main.py" name="virtual_agent" output="screen"/>
+
+</launch>

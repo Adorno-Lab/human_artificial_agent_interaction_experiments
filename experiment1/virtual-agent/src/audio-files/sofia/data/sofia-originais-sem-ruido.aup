@@ -1,0 +1,685 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="sofia-originais-sem-ruido_data" version="1.3.0" audacityversion="2.4.2" sel0="0.0000000000" sel1="36.9754875283" vpos="0" h="0.0000000000" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="124379">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fbad.au" len="124379" min="-0.390467" max="0.399551" rms="0.063816"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="124379">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fb84.au" len="124379" min="-0.387206" max="0.396893" rms="0.063506"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="180739">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fd40.au" len="180739" min="-0.478339" max="0.583131" rms="0.062081"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="180739">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f188.au" len="180739" min="-0.475628" max="0.579645" rms="0.061782"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="224355">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f84a.au" len="224355" min="-0.302243" max="0.393674" rms="0.043217"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="224355">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f583.au" len="224355" min="-0.301489" max="0.411128" rms="0.043257"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="365611">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fe11.au" len="182805" min="-0.411501" max="0.332455" rms="0.040894"/>
+				</waveblock>
+				<waveblock start="182805">
+					<simpleblockfile filename="eff1fc16.au" len="182806" min="-0.351143" max="0.314653" rms="0.043586"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="365611">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f800.au" len="182805" min="-0.410137" max="0.331499" rms="0.040674"/>
+				</waveblock>
+				<waveblock start="182805">
+					<simpleblockfile filename="eff1f725.au" len="182806" min="-0.350097" max="0.313117" rms="0.043456"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="376755">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1ffad.au" len="188377" min="-0.800237" max="0.775741" rms="0.065358"/>
+				</waveblock>
+				<waveblock start="188377">
+					<simpleblockfile filename="eff1f18e.au" len="188378" min="-0.500865" max="0.437906" rms="0.053854"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="376755">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fb0d.au" len="188377" min="-0.795502" max="0.771949" rms="0.06505"/>
+				</waveblock>
+				<waveblock start="188377">
+					<simpleblockfile filename="eff1f519.au" len="188378" min="-0.498369" max="0.435684" rms="0.053643"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="234643">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f683.au" len="234643" min="-0.42518" max="0.375029" rms="0.051779"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="234643">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fe8a.au" len="234643" min="-0.422559" max="0.373089" rms="0.051493"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="165227">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f070.au" len="165227" min="-0.322616" max="0.398002" rms="0.038462"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="165227">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f244.au" len="165227" min="-0.320277" max="0.396114" rms="0.038282"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="177667">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f77e.au" len="177667" min="-0.364644" max="0.368026" rms="0.050038"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="177667">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f112.au" len="177667" min="-0.364928" max="0.368658" rms="0.049848"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="168915">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f2ca.au" len="168915" min="-0.394576" max="0.52679" rms="0.043207"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="168915">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f5f7.au" len="168915" min="-0.392708" max="0.526241" rms="0.04302"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="148923">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f4a6.au" len="148923" min="-0.334318" max="0.398258" rms="0.033827"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="148923">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f4b2.au" len="148923" min="-0.333349" max="0.396569" rms="0.033638"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1045515">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fa0d.au" len="262144" min="-0.50803" max="0.510402" rms="0.068471"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1fbd7.au" len="262144" min="-0.466855" max="0.404821" rms="0.060168"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="eff1f16c.au" len="262144" min="-0.412563" max="0.41153" rms="0.059905"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="eff1f2fb.au" len="259083" min="-0.515477" max="0.438861" rms="0.059882"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1045515">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f340.au" len="262144" min="-0.506222" max="0.50902" rms="0.068123"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1fd30.au" len="262144" min="-0.464776" max="0.401787" rms="0.05986"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="eff1fe09.au" len="262144" min="-0.410681" max="0.409172" rms="0.05956"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="eff1f3ed.au" len="259083" min="-0.513011" max="0.437083" rms="0.059607"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="149" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="213251">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f10b.au" len="213251" min="-0.421911" max="0.444359" rms="0.043184"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="149" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="213251">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f6be.au" len="213251" min="-0.420823" max="0.439533" rms="0.042891"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="191619">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fc87.au" len="191619" min="-0.677752" max="0.56176" rms="0.078111"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="191619">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1ff2b.au" len="191619" min="-0.67405" max="0.558205" rms="0.077781"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="253931">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fccf.au" len="253931" min="-0.498706" max="0.499507" rms="0.063033"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="253931">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f3cf.au" len="253931" min="-0.494951" max="0.497216" rms="0.062684"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="133515">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f6d3.au" len="133515" min="-0.364328" max="0.486732" rms="0.061211"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="133515">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f9fb.au" len="133515" min="-0.363012" max="0.483671" rms="0.06092"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="251611">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fbd4.au" len="251611" min="-0.469093" max="0.426534" rms="0.048872"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="251611">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1feb6.au" len="251611" min="-0.465786" max="0.424344" rms="0.048614"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="252315">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fa85.au" len="252315" min="-0.432962" max="0.463545" rms="0.041973"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="252315">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fb38.au" len="252315" min="-0.430955" max="0.46122" rms="0.041794"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="180515">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f31e.au" len="180515" min="-0.361267" max="0.349502" rms="0.04311"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="180515">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f33a.au" len="180515" min="-0.360294" max="0.347541" rms="0.04292"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="299307">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f5b4.au" len="149653" min="-0.347717" max="0.27495" rms="0.037988"/>
+				</waveblock>
+				<waveblock start="149653">
+					<simpleblockfile filename="eff1f7dd.au" len="149654" min="-0.250475" max="0.235092" rms="0.03174"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="299307">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f958.au" len="149653" min="-0.34536" max="0.274519" rms="0.037725"/>
+				</waveblock>
+				<waveblock start="149653">
+					<simpleblockfile filename="eff1f626.au" len="149654" min="-0.248594" max="0.233748" rms="0.031597"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="233475">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f884.au" len="233475" min="-0.493625" max="0.553743" rms="0.040157"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="233475">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f8c1.au" len="233475" min="-0.490538" max="0.550874" rms="0.039932"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1630619">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fdfb.au" len="262144" min="-0.410782" max="0.363982" rms="0.04411"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1f1df.au" len="262144" min="-0.409348" max="0.372227" rms="0.05139"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="eff1ff95.au" len="262144" min="-0.353425" max="0.339801" rms="0.04314"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="eff1f7c2.au" len="262144" min="-0.341744" max="0.396931" rms="0.058631"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="eff1fbdb.au" len="262144" min="-0.357432" max="0.499712" rms="0.058283"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="eff1fa88.au" len="159949" min="-0.412409" max="0.480805" rms="0.058836"/>
+				</waveblock>
+				<waveblock start="1470669">
+					<simpleblockfile filename="eff1f9c6.au" len="159950" min="-0.347457" max="0.389795" rms="0.049876"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1630619">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f979.au" len="262144" min="-0.409798" max="0.363554" rms="0.043906"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1f50e.au" len="262144" min="-0.407705" max="0.369625" rms="0.051074"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="eff1f9e9.au" len="262144" min="-0.357023" max="0.337899" rms="0.04285"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="eff1fb18.au" len="262144" min="-0.340257" max="0.394368" rms="0.058216"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="eff1fd08.au" len="262144" min="-0.356185" max="0.496149" rms="0.057983"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="eff1fe30.au" len="159949" min="-0.410207" max="0.478522" rms="0.058544"/>
+				</waveblock>
+				<waveblock start="1470669">
+					<simpleblockfile filename="eff1f9fd.au" len="159950" min="-0.346407" max="0.387936" rms="0.049589"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="450371">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f579.au" len="262144" min="-0.691879" max="0.39495" rms="0.055006"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1f1db.au" len="188227" min="-0.285888" max="0.326956" rms="0.045216"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="450371">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1ff18.au" len="262144" min="-0.68823" max="0.392702" rms="0.054719"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1fb33.au" len="188227" min="-0.283897" max="0.325331" rms="0.04502"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="465907">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f53f.au" len="262144" min="-0.246823" max="0.417626" rms="0.046273"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1f3b7.au" len="203763" min="-0.30742" max="0.347059" rms="0.03911"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="465907">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1ff6b.au" len="262144" min="-0.245894" max="0.41577" rms="0.046046"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1fc79.au" len="203763" min="-0.305123" max="0.344642" rms="0.038829"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="387403">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fc0f.au" len="193701" min="-0.427774" max="0.411262" rms="0.046689"/>
+				</waveblock>
+				<waveblock start="193701">
+					<simpleblockfile filename="eff1f52a.au" len="193702" min="-0.310423" max="0.278791" rms="0.045295"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="387403">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f055.au" len="193701" min="-0.426197" max="0.409641" rms="0.046468"/>
+				</waveblock>
+				<waveblock start="193701">
+					<simpleblockfile filename="eff1f0e5.au" len="193702" min="-0.308796" max="0.278607" rms="0.045005"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="242403">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f563.au" len="242403" min="-0.421631" max="0.546927" rms="0.047001"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="242403">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f6ee.au" len="242403" min="-0.419253" max="0.545736" rms="0.04676"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="921915">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f07b.au" len="262144" min="-0.320877" max="0.250951" rms="0.038508"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1f7d7.au" len="262144" min="-0.321917" max="0.345378" rms="0.036558"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="eff1fa1a.au" len="262144" min="-0.350671" max="0.288683" rms="0.039347"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="eff1f608.au" len="135483" min="-0.464348" max="0.301889" rms="0.039385"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="921915">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f418.au" len="262144" min="-0.316666" max="0.248758" rms="0.038284"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1f448.au" len="262144" min="-0.319916" max="0.342742" rms="0.036363"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="eff1f9ed.au" len="262144" min="-0.347661" max="0.285448" rms="0.039134"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="eff1f361.au" len="135483" min="-0.462391" max="0.300721" rms="0.039159"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="288371">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f8a0.au" len="144185" min="-0.298689" max="0.29247" rms="0.033722"/>
+				</waveblock>
+				<waveblock start="144185">
+					<simpleblockfile filename="eff1f012.au" len="144186" min="-0.266578" max="0.263251" rms="0.028064"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="288371">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f158.au" len="144185" min="-0.297282" max="0.290936" rms="0.033571"/>
+				</waveblock>
+				<waveblock start="144185">
+					<simpleblockfile filename="eff1f572.au" len="144186" min="-0.265496" max="0.262033" rms="0.027903"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="280723">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fa9c.au" len="140361" min="-0.415263" max="0.320204" rms="0.041905"/>
+				</waveblock>
+				<waveblock start="140361">
+					<simpleblockfile filename="eff1f7e3.au" len="140362" min="-0.268394" max="0.296127" rms="0.035944"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de Áudio" isSelected="1" height="150" minimized="1" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="280723">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f839.au" len="140361" min="-0.41203" max="0.318933" rms="0.041831"/>
+				</waveblock>
+				<waveblock start="140361">
+					<simpleblockfile filename="eff1f56b.au" len="140362" min="-0.267028" max="0.295196" rms="0.035755"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

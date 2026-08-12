@@ -1,0 +1,33 @@
+<launch>
+	<include file="$(find tracker)/launch/launch_main.launch"> </include>
+
+	<include file="$(find virtual-agent)/launch/launch_phase1.launch"> </include>
+
+	<include file="$(find audio_capture)/launch/capture.launch"> </include>
+
+	<!-- (1) if it should record camera, (0) if not. -->
+	<arg name="record" value="1" />
+
+	<!-- Configuring and running record node. -->
+	<!-- YOU SHOULD UPDATE THE PARAMETERS BELOW IF RECORD IS ACTIVATED. -->
+	<group if="$(arg record)">
+
+		<!-- Name of the image topic to be recorded -->
+		<param name="~image_topic" type="string" value="/camera3/rgb3/image_color" />
+
+		<!-- Number associated with the camera. -->
+		<arg name="~camera_number" value="3" />
+
+		<!-- Parameter to indicate if the video should be created (1) or not (0) -->
+		<param name="~video" type="int" value="0" />
+
+		<!-- Name of the folder with the frames and the text file, if they already exist. -->
+		<arg name="files" default=""/>
+		<param name="~files_param" type="string" value="$(arg files)" />
+
+		<param name="~camera_number" value="$(arg ~camera_number)" />
+		<node pkg="experiments" type="record.py" name="record_kinect$(arg ~camera_number)" output="screen"/>
+
+	</group>
+
+</launch>

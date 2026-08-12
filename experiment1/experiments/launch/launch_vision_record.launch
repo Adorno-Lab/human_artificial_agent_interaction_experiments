@@ -1,0 +1,13 @@
+<launch>	
+	<!-- (1) if it should record camera, (0) if not. -->
+	<arg name="record" value="1" />
+
+	<!-- Running record nodes. -->
+	<group if="$(arg record)">
+
+		<include file="$(find experiments)/launch/record_kinect1.launch"> </include>
+		<include file="$(find experiments)/launch/record_kinect2.launch"> </include>
+
+	</group>
+
+</launch>

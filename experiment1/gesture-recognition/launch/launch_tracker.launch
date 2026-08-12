@@ -1,0 +1,8 @@
+<launch>
+
+	<node pkg="openni_tracker" name="openni_tracker" type="openni_tracker"/>
+	
+	<node pkg="tracker" type="tracker_tf_listener.py" name="listener"/>
+
+
+</launch>

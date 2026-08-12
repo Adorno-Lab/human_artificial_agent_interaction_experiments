@@ -1,0 +1,18 @@
+<launch>	
+	<!-- Name of the image topic to be recorded -->
+	<param name="~image_topic" type="string" value="/camera/rgb1/image_color" />
+
+	<!-- Number associated with the camera. -->
+	<arg name="~camera_number" value="1" />
+
+	<!-- Parameter to indicate if the video should be created (1) or not (0) -->
+	<param name="~video" type="int" value="0" />
+
+	<!-- Name of the folder with the frames and the text file, if they already exist. -->
+	<arg name="files" default=""/>
+	<param name="~files_param" type="string" value="$(arg files)" />
+
+	<param name="~camera_number" value="$(arg ~camera_number)" />
+	<node pkg="experiments" type="record.py" name="record_kinect$(arg ~camera_number)" output="screen"/>
+
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+	<include file="$(find tracker)/launch/launch_main.launch"> </include>
+
+	<include file="$(find virtual-agent)/launch/launch_phase1.launch"> </include>
+
+	<node pkg="experiments" type="exim_exim_config.py" name="exim_exim" output="screen"/>
+
+</launch>

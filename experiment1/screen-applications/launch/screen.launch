@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="screen" type="main_experiments.py" name="screen" output="screen"/>
+
+</launch>
+

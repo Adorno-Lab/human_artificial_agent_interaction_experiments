@@ -1,0 +1,38 @@
+<launch>
+
+<include file="$(find freenect_launch)/launch/freenect_one.launch"> 
+</include>
+
+<include file="$(find freenect_launch)/launch/freenect_two.launch"> 
+</include>
+
+<!-- Arguments are position (x, y, z) and orientation quaternion (w, wx, wy, wz): -->
+<!-- args="x y z wx wy wz w camera_link camera2_link 100" -->
+<node pkg="tf" type="static_transform_publisher" name="broadcaster" 
+args="-0.01967 0.077 -1.776306 0.0038 -0.030172 -0.004243 -0.999528 camera_link camera2_link 100" />
+
+
+ <node  name="rviz"    pkg="rviz"    type="rviz" args="-d $(find experiments)/rviz/config_rviz_vision.rviz"/>
+
+	<arg name="marker_size" default="18.0" />
+	<arg name="max_new_marker_error" default="0.07" />
+	<arg name="max_track_error" default="0.05" />
+	<arg name="cam_image_topic" default="/camera/rgb1/image_mono" />
+	<arg name="cam_info_topic" default="/camera/rgb1/camera_info" />	
+	<arg name="output_frame" default="/camera_link" />
+
+	<node name="ar_track_alvar" pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="screen" args="$(arg marker_size) $(arg max_new_marker_error) $(arg max_track_error) $(arg cam_image_topic) $(arg cam_info_topic) $(arg output_frame)" />
+
+    <arg name="cam_image_topic2" default="/camera2/rgb2/image_mono" />
+	<arg name="cam_info_topic2" default="/camera2/rgb2/camera_info" />	
+	<arg name="output_frame2" default="/camera_link" />
+
+	<node name="ar_track_alvar2" pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="screen" args="$(arg marker_size) $(arg max_new_marker_error) $(arg max_track_error) $(arg cam_image_topic2) $(arg cam_info_topic2) $(arg output_frame2)" />
+	
+
+	<node pkg="markers" type="tf_broadcaster.py" name="tf_brct" />
+	
+	<node pkg="markers" type="vision_system.py" name="markersOdom" output="screen"/>
+	
+
+</launch>

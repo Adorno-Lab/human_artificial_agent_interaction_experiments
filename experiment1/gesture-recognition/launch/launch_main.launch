@@ -1,0 +1,45 @@
+<launch>
+	<!-- Dimensions of the objects -->
+	<!-- For each object, add the lengths separated by commas and the objects separated by semicolons (ex: "lx1, ly1, lz1; lx2, ly2, lz2") -->
+	<param name="~objects_dimensions" value="0.24, 0.495, 0.475;
+						 0.37, 0.365, 0.605;
+						 0.55, 0.415, 0.465;
+						 0.37, 0.36, 0.60" />
+
+	<!-- The percentage that the objects will be larger than their original dimensions -->
+	<param name="~larger" value="0.2" />
+
+	<!-- Parameter to indicate how the objects poses will be defined -->
+	<!-- If (0), objects are tracked using ROS topics with respect to the reference frame. -->
+	<!-- If (1), objects are fixed with respect to the camera. -->
+	<param name="~objects" value="0" />
+
+	<!-- Names of the topics for the objects' poses -->
+	<!-- Separate the name of each topic using semicolons (ex: "topic1; topic2") -->
+	<!-- NOTE: You only need to set this parameter if the objects poses should be tracked using topics. -->
+	<param name="~topics" value="/x01;/x02;/x03;/x04" />
+
+	<!-- Fixed poses of the objects with respect to the camera. -->
+	<!-- For each object, add the position and rotation quaternion, with elements separated by commas. The semicolons separate objects. -->
+	<!-- Example: "px1, py1, pz1, rw1, rx1, ry1, rz1; px2, py2, pz2, rw2, rx2, ry2, rz2", where, for the i-th object, pxi, pyi, and pzi are the coordinates of position in x, y, and, z, respectively, rwi is the real part of the rotation quaternion and rxi, ryi, and rzi are its imaginary coordinates. --> 
+	<!-- NOTE: You only need to set this parameter if the objects poses are fixed. -->
+	<param name="~fixed_poses" value="" />
+
+	<!-- Number of object detections that should occur before calling it an indication. -->
+	<param name="~detection_number" value="5" />
+
+	<!-- Transformation from camera 1 to camera 3. -->
+	<node pkg="tf" type="static_transform_publisher" name="broadcaster2" args="1.13649 -0.028098 -3.741974 -0.025314 0.662098 0.033731 -0.74823 camera_link camera3_link 100" />
+
+	<include file="$(find openni_launch)/launch/openni.launch"> </include>
+
+	<node pkg="tracker" type="main.py" name="tracker_manager"/>
+
+	<node pkg="tracker" type="gesture_interpretation.py" name="gesture"/>
+
+	<!-- Visualization in rviz --> 
+	<!--
+	<node type="rviz" name="rviz" pkg="rviz" args="-d $(find tracker)/rviz/config_file.rviz" /> 
+	-->
+
+</launch>

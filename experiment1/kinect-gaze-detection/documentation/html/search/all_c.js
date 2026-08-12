@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['set_5finitial_5fpoint',['set_initial_point',['../detection__kalmanfilter_8cpp.html#af4fb1c4a1786a153723f51e9e8efd841',1,'set_initial_point(vector&lt; Point &gt; first_detected):&#160;detection_kalmanfilter.cpp'],['../detection__kalmanfilter_8h.html#af4fb1c4a1786a153723f51e9e8efd841',1,'set_initial_point(vector&lt; Point &gt; first_detected):&#160;detection_kalmanfilter.cpp']]],
+  ['set_5finitial_5frect',['set_initial_rect',['../detection__kalmanfilter_8cpp.html#afd9023d6b30d3d8fb56ddaf07f8333aa',1,'set_initial_rect(vector&lt; Rect &gt; first_detected):&#160;detection_kalmanfilter.cpp'],['../detection__kalmanfilter_8h.html#afd9023d6b30d3d8fb56ddaf07f8333aa',1,'set_initial_rect(vector&lt; Rect &gt; first_detected):&#160;detection_kalmanfilter.cpp']]],
+  ['set_5fkalman_5ffilter_5fmatrices',['set_kalman_filter_matrices',['../detection__kalmanfilter_8cpp.html#a2de55444e739f38d3ac0a44d8151a020',1,'set_kalman_filter_matrices(KalmanFilter &amp;kf_object, double delta_t, double kProcessNoise, double kMeasurementNoise, double kErrorPost):&#160;detection_kalmanfilter.cpp'],['../detection__kalmanfilter_8h.html#a2de55444e739f38d3ac0a44d8151a020',1,'set_kalman_filter_matrices(KalmanFilter &amp;kf_object, double delta_t, double kProcessNoise, double kMeasurementNoise, double kErrorPost):&#160;detection_kalmanfilter.cpp']]],
+  ['show',['show',['../class_detector.html#a4f383a690dbc6a977fe174ef0cfff703',1,'Detector']]],
+  ['subscriber_5fcallback',['subscriber_callback',['../class_detector.html#acb2e0dc1db998cdcaae3ce36f4a7395b',1,'Detector']]]
+];
